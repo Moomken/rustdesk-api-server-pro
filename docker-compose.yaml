@@ -7,5 +7,5 @@ services:
       - "ADMIN_PASS=Moomkenwe09" # optional
     volumes:
       - ./server.yaml:/app/server.yaml
-    network_mode: host
+    # network_mode: host
     restart: unless-stopped
