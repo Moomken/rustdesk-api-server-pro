@@ -10,7 +10,7 @@ db:
 httpConfig:
   printRequestLog: true
   staticdir: "/app/dist"
-  port: ":12345" # api server port
+  port: ":8080" # api server port
 
 smtpConfig:
   host: "127.0.0.1"
