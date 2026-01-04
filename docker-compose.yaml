@@ -9,5 +9,6 @@ services:
       - "8099:8080" # External:Internal
     volumes:
       - ./server.yaml:/app/server.yaml
+      - ./soybean-admin/dist:/app/dist
     # network_mode: host
     restart: unless-stopped
