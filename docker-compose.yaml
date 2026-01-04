@@ -3,8 +3,8 @@ services:
     container_name: rustdesk-api-server-pro
     image: ghcr.io/lantongxue/rustdesk-api-server-pro:latest
     environment:
-      - "ADMIN_USER=youruser" # optional
-      - "ADMIN_PASS=yourpassword" # optional
+      - "ADMIN_USER=admin" # optional
+      - "ADMIN_PASS=Moomkenwe09" # optional
     volumes:
       - ./server.yaml:/app/server.yaml
     network_mode: host
