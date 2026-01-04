@@ -5,6 +5,8 @@ services:
     environment:
       - "ADMIN_USER=admin" # optional
       - "ADMIN_PASS=Moomkenwe09" # optional
+    ports:
+      - "8099:8080" # External:Internal
     volumes:
       - ./server.yaml:/app/server.yaml
     # network_mode: host
